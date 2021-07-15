@@ -42,7 +42,7 @@ header nav
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin: 0;
+  margin: 10px 0 10px 0;
   height: 450px;
 	position: relative;
 }
@@ -55,4 +55,80 @@ header nav
 {
   color: white;
   font-size: 1.9em;
+}
+article
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#intro
+{
+  width: 70%;
+  font-size: 1.4em;
+}
+#illustrations
+{
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  width: 70%;
+}
+.bloc_illustration
+{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px 0 20px;
+  text-align: center;
+  font-size: 1em;
+}
+#texte_bas
+{
+  width: 55%;
+  font-size: 1.4em;
+}
+#intro, #illustrations, #texte_bas
+{
+  margin-top: 45px;
+}
+article h2
+{
+  font-size: 1.4em;
+  text-transform: uppercase;
+}
+#signature
+{
+  font-size: 0.7em;
+}
+footer
+{
+  background-color: #5B359D;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+footer p, footer h3, footer a, footer i, footer li
+{
+  color: white;
+}
+#section_liens
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: inherite;
+}
+.liens_footer ul, .liens_footer p
+{
+  display: flex;
+  flex-direction: column;
+}
+.liens_footer
+{
+  justify-content: space-between;
 }
