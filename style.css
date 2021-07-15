@@ -6,7 +6,7 @@ body
 #bloc_page
 {
   min-width: 900px;
-  max-width: 1280px;
+  max-width: 1200px;
   margin: auto;
 }
 header
@@ -32,4 +32,27 @@ header nav
 {
   display: flex;
   align-items: center;
+}
+#bloc_banniere
+{
+  background-image: url("images/backgroung_image.jpg");
+  background-size: cover;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  height: 450px;
+	position: relative;
+}
+#bloc_banniere img
+{
+  width: 200px;
+  height: 60px;
+}
+#bloc_banniere h1
+{
+  color: white;
+  font-size: 1.9em;
 }
