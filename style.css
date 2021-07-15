@@ -21,12 +21,15 @@ header a
 }
 header ul
 {
-  display: flex;
   list-style-type: none;
-  justify-content: center;
-  align-items: center;
+  display: flex;
 }
 header li
 {
   margin-left: 20px;
+}
+header nav
+{
+  display: flex;
+  align-items: center;
 }
